@@ -28,22 +28,22 @@ dir = input(
     "Your are at the cross road. where do you want to go? type \"left\" or \"right\" ? \n"
 ).lower()
 if dir != "left":
-    print("Fall into a hole. Game Over ")
+    print("Fall into a hole. Game Over :( ")
 else:
     que2 = input(
         "You come to a Lake. There is an island in the middle of the lake. type \"swim \" to swim across. Type \"wait\" to wait for a boat \n"
     ).lower()
     if que2 != "wait":
-        print("Attacked By Trout. Game Over:(")
+        print("Attacked By Trout. Game Over :( ")
     else:
         door = input(
             "You arrive at the island unharmed. there is a house with 3 Doors. One red, one yellow and one blue. which colour do you choose? \n"
         ).lower()
         if door == "red":
-            print("Burned By fire Game Over :(")
+            print("Burned By fire Game Over :( ")
         elif door == "blue":
-            print("Eaten By beast game over:(")
+            print("Eaten By beast game over :( ")
         elif door == "yellow":
             print("You win!! ")
         else:
-            print("Game Over:(")
+            print("Game Over :( ")

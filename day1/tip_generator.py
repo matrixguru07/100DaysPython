@@ -1,4 +1,4 @@
-print("Welcome to Tip generator")
+print("__Welcome to Tip generator__")
 
 bill = float(input("Enter the Total Bill Amount: "))
 tip = int(input("Enter the Tip you would like to give: "))

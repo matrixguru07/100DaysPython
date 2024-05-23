@@ -60,3 +60,5 @@ else:
             print("You Win")
         elif com_choice == 2 and choice == 0:
             print("You Win")
+
+print("Thank You For Using :) ")

@@ -11,7 +11,7 @@ letters = [
 numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
 symbols = ['!', '#', '$', '%', '&', '(', ')', '*', '+']
 
-print("Hey! there you took right choice to protect your account :)")
+print("\n Hey! there you took right choice to protect your account :)")
 
 no_letters = int(input("how many letters you want? \n"))
 no_numbers = int(input("how many numbers you want? \n"))

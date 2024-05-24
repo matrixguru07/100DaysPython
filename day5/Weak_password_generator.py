@@ -11,7 +11,7 @@ symbols = ['!', '#', '$', '%', '&', '(', ')', '*', '+']
 
 # welcoming text
 
-print("Hey there welcome!! this is password generator")
+print("\n Hey there welcome!! this is password generator: \n")
 
 no_letters = int(input("How many letters you want?\n "))
 no_symbols = int(input("How many symbols you want?\n "))
@@ -30,3 +30,4 @@ for x in range(1,no_numbers+1):
 
     
 print(f"Your password is: {password}")
+print("Thanks for using :) ")
